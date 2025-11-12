@@ -25,6 +25,23 @@ int main() {
         j++;
     } while (j < 8); // Condição: Repete até fazer 8 movimentos
 
+
+     printf("\n--- Movimento do Cavalo ---\n");
+    
+    // 1. Movimento vertical (2 casas para baixo) - Usando loop FOR
+    // Note que o valor '2' é usado diretamente.
+    for (int i = 0; i < 2; i++) { 
+        printf("Baixo\n");
+    }
+    
+    // 2. Movimento perpendicular (1 casa para a esquerda) - Usando loop WHILE
+    // Note que o valor '1' é usado diretamente.
+    int l = 0;
+    while (l < 1) { 
+        printf("Esquerda\n");
+        l++;
+    }
+
     return 0;
 
 }
